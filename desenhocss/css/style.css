@@ -1,14 +1,22 @@
+.head {
+    width: 100%;
+    height: 953px;
+}
+
+/* PARTE DA CABEÇA */
 .cabeça {
     position: absolute;
     display: flex;
     background-color: red;
-    width: 162px;
+    width: 150px;
     border: #000;
     height: 151px;
     border-radius: 100px;
     left: 35%;
     top: 400px;
+    flex-wrap: wrap;
 }
+
 
 .cabeça-branca {
     position: absolute;
@@ -18,18 +26,7 @@
     border-radius: 65px;
     left: 36%;
     top: 51%;
-}
-
-.cabeça-vermelha {
-    position: absolute;
-    display: flex;
-    background-color: red;
-    width: 103px;
-    border: #000;
-    height: 52px;
-    border-radius: 65px;
-    left: -2%;
-    top: -2%;
+    flex-wrap: wrap;
 }
 
 .olho-direito {
@@ -44,23 +41,297 @@
     box-shadow: 0px 5px 0 1px #000;
     border-radius: 50%;
     transform: rotate(165deg);
+    flex-wrap: wrap;
 }
 
 .bochecha-direita {
     position: absolute;
     display: flex;
     background-color: white;
-    top: 19%;
-    right: -65%;
+    top: 50%;
+    left: 671px;
     transform: translate(50%, -44%);
-    height: 60px;
-    width: 39px;
+    height: 69px;
+    width: 49px;
     box-shadow: 0px 5px 0 1px #000;
     border-radius: 50%;
-    transform: rotate(312deg);
+    transform: rotate(463deg);
+    flex-wrap: wrap;
+}
+
+.olho-esquerdo {
+    position: relative;
+    display: flex;
+    background-color: white;
+    top: 431px;
+    left: 761px;
+    transform: translate(50%, -44%);
+    height: 79px;
+    width: 51px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(164deg);
+    flex-wrap: wrap;
+}
+
+.bochecha-esquerda {
+    position: relative;
+    display: flex;
+    background-color: white;
+    top: 371px;
+    left: 786px;
+    transform: translate(50%, -44%);
+    height: 90px;
+    width: 53px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(592deg);
+    flex-wrap: wrap;
+}
+
+.nariz {
+    position: relative;
+    display: flex;
+    background-color: black;
+    width: 24px;
+    border: #000;
+    height: 23px;
+    border-radius: 100px;
+    left: 749px;
+    top: 310px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.orelha-direita {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    height: 21px;
+    transform: rotate(97deg);
+    border-radius: 11px;
+    left: 756px;
+    top: 193px;
+    flex-wrap: wrap;
+}
+
+.orelha-esquerda {
+    display: flex;
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    width: 30px;
+    border: #000;
+    height: 21px;
+    transform: rotate(69deg);
+    border-radius: 11px;
+    left: 687px;
+    top: 175px;
+    flex-wrap: wrap;
+}
+
+.pontinho-nariz {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 7px;
+    border: #000;
+    height: 3px;
+    transform: rotate(104deg);
+    border-radius: 100px;
+    left: 750px;
+    top: 297px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.borda-olho-direito {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    top: 495px;
+    left: 722px;
+    transform: translate(50%, -44%);
+    height: 12px;
+    width: 32px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 53%;
+    transform: rotate(169deg);
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.borda-olho-esquerdo {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    top: 481px;
+    left: 792px;
+    transform: translate(50%, -44%);
+    height: 12px;
+    width: 34px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 53%;
+    transform: rotate(160deg);
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.olhos-direito {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 24px;
+    border: #000;
+    height: 33px;
+    transform: rotate(-14deg);
+    border-radius: 9px;
+    left: 716px;
+    top: 462px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.olhos-esquerdo {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 23px;
+    border: #000;
+    height: 31px;
+    transform: rotate(158deg);
+    border-radius: 9px;
+    left: 785px;
+    top: 452px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+
+
+.pontinho-olho-direito {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 5px;
+    border: #000;
+    height: 5px;
+    transform: rotate(104deg);
+    border-radius: 120px;
+    left: 710px;
+    top: 225px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.pontinho-olho-esquerdo {
+    position: relative;
+    display: flex;
+    background-color: white;
+    width: 5px;
+    border: #000;
+    height: 5px;
+    transform: rotate(104deg);
+    border-radius: 120px;
+    left: 778px;
+    top: 208px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.olho-preto-direito {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    top: 446px;
+    left: 788px;
+    transform: translate(50%, -44%);
+    height: 57px;
+    width: 31px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(154deg);
+    flex-wrap: wrap;
 
 }
 
-.dentes {
+
+.olho-preto-esquerdo {
     position: absolute;
+    display: flex;
+    background-color: white;
+    top: 457px;
+    left: 717px;
+    transform: translate(50%, -44%);
+    height: 57px;
+    width: 35px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(165deg);
+    flex-wrap: wrap;
+}
+
+
+
+/* PARTE DA BOCA  */
+
+.lado-boca {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    width: 21px;
+    border: #000;
+    height: 8px;
+    transform: rotate(331deg);
+    border-radius: 6px;
+    left: 725px;
+    top: 514px;
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.superior-boca {
+    position: relative;
+    display: flex;
+    background-color: white;
+    top: 242px;
+    left: 729px;
+    transform: translate(50%, -44%);
+    height: 30px;
+    width: 35px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    flex-wrap: wrap;
+}
+
+.ladinho-boca {
+    position: relative;
+    display: flex;
+    background-color: white;
+    top: 207px;
+    left: 765px;
+    transform: translate(50%, -44%);
+    height: 17px;
+    width: 18px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(1deg);
+    z-index: 9999;
+    flex-wrap: wrap;
+}
+
+.boca {
+    position: relative;
+    display: flex;
+    background-color: white;
+    top: 242px;
+    left: 729px;
+    transform: translate(50%, -44%);
+    height: 30px;
+    width: 35px;
+    box-shadow: 0px 5px 0 1px #000;
+    border-radius: 50%;
+    transform: rotate(-20deg);
+    flex-wrap: wrap;
 }
